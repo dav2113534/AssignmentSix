@@ -1,8 +1,11 @@
 
 // import File, FileNotFoundException and Scanner classes
-// import
+import java.io.PrintWriter;
 import java.io.FileNotFoundException;
 import java.util.*;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.util.Scanner;
 
 /*---------------------------------------------------------------------------
 // AUTHOR: David Palacios           
@@ -29,6 +32,7 @@ public class ReadRecord {
                 // -->
 
                 // declare an array of strings called names
+                String[] names;
 
                 // User input will be like address.txt
                 // Ask the user for the input file
