@@ -30,6 +30,7 @@ public class ReadRecord {
 
                 // instantiate an object of type ReadRecord
                 // -->
+                ReadRecord a = new ReadRecord();
 
                 // declare an array of strings called names
                 String[] names;
